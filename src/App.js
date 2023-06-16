@@ -4,6 +4,7 @@ import Tooltip from "./component/tooltip/Tooltip";
 function App() {
   return (
     <div className="App">
+      {/* Tooltip Component */}
       <Tooltip position="top" text="I am tooltip">
         <button>Hover me!</button>
       </Tooltip>
